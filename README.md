@@ -1,5 +1,3 @@
-# End-to-End-Logistics-Compliance-Automation-Project
-# End-to-End-Logistics-Compliance-Automation-Project
 # Automated Logistics Data Consolidator & Analytics 🚀
 
 ### 📄 Project Overview
