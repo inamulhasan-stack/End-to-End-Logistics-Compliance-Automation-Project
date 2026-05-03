@@ -59,4 +59,6 @@ This project was developed to automate the complex process of consolidating, cat
 ### 👨‍💻 Connect with Me
 I am passionate about building automated systems that bridge the gap between complex operations and data-driven insights. If you are interested in **Data Automation, MIS Analyst, Logistics Analytics, or FinTech solutions**, let’s connect!
 
-[**LinkedIn Profile**](www.linkedin.com/in/inam-hasan) | 
+**Inamul Hasan** *MIS Analyst | Reporting Analyst*
+
+[**LinkedIn Profile**](www.linkedin.com/in/inam-hasan) 
