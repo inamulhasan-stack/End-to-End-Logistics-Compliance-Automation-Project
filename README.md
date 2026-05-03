@@ -22,7 +22,7 @@ This project was developed to automate the complex process of consolidating, cat
 ---
 
 ### 💻 VBA Automation Logic
-![VBA Code Snippet](Images/VBA_code.png)
+![VBA Code Snippet](Images/VBA_Code.png)
 *This script automates the distribution of consolidated data into partner-specific Excel manifests.*
 
 ### 📂 Repository Structure
@@ -50,7 +50,7 @@ This project was developed to automate the complex process of consolidating, cat
 
 ### 🖼️ Dashboard Preview
 ![Power BI Dashboard](Images/Dashboard.png) 
-*(Note: Replace the link above with your actual screenshot path)*
+
 
 ---
 
