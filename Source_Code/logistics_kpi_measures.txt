@@ -1,0 +1,19 @@
+DEFINE
+    -- Total Shipments Count
+    MEASURE Logistics_Data[Total Shipments] = 
+        COUNT(Logistics_Data[Transaction_ID])
+
+    -- Delivery Rate Percentage[cite: 1]
+    MEASURE Logistics_Data[Delivery Rate %] = 
+        VAR DeliveredCount = CALCULATE([Total Shipments], Logistics_Data[Shipment_Status] = "Delivered")
+        RETURN DIVIDE(DeliveredCount, [Total Shipments], 0)
+
+    -- Return Rate Percentage[cite: 1]
+    MEASURE Logistics_Data[Return Rate %] = 
+        VAR ReturnedCount = CALCULATE([Total Shipments], Logistics_Data[Shipment_Status] = "Returned")
+        RETURN DIVIDE(ReturnedCount, [Total Shipments], 0)
+
+    -- Delayed Rate Percentage[cite: 1]
+    MEASURE Logistics_Data[Delayed Rate %] = 
+        VAR DelayedCount = CALCULATE([Total Shipments], Logistics_Data[Shipment_Status] = "Delayed")
+        RETURN DIVIDE(DelayedCount, [Total Shipments], 0)
